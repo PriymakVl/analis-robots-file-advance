@@ -1,0 +1,97 @@
+.conteiner {
+    width: 900px;
+    margin: 0 auto;   
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 span {
+    color: #339866;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table tr {
+    height: 30px;
+}
+
+.not-top-border {
+    border-top: none;
+}
+
+td {
+    border: 2px solid #C0C0C0;
+}
+
+th {
+    background: #C0C0C0;
+    border-right: 2px solid #fff;
+    border-bottom: none;
+    height:35px;
+}
+
+th:last-child {
+    border-right: 2px solid #C0C0C0;
+}
+
+
+.number-cell {
+    text-align: center;
+    width: 40px;
+}
+
+.current-state-key-cell {
+    text-align: center;
+    width: 125px;
+}
+
+.current-state-value-cell {
+    padding-left: 5px;
+}
+
+.status-cell {
+    text-align: center;
+    width: 85px;
+} 
+.check-name-cell {
+    padding-left: 5px;
+    width: 230px;
+    text-indent: 10px;
+}
+
+.li {
+    margin-top: 15px;
+}
+
+/*page form*/
+form {
+    border: 2px solid grey;
+    padding: 20px;
+}
+
+#url_site {
+    width: 800px;
+    height: 25px;
+    font-size: 1.5em;
+}
+
+form label {
+    font-size: 1.1em;
+}
+
+/*page error*/
+.eroor-message {
+    font-size: 1.5em;
+    background: #FF8080;
+    border: 2px solid red;
+    padding: 15px;
+}
+
+
+
+
+
