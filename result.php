@@ -31,7 +31,7 @@
 			
 			<!-- exist host -->	
             <tr>
-                <td rowspan="2" class="number-cell">6</td>
+                <td rowspan="2" class="number-cell">2</td>
                 <td rowspan="2" class="check-name-cell">Проверка указания директивы Host</td>
                 <td rowspan="2" class="status-cell" style="<?=$response['exist_host']['style']?>"><?=$response['exist_host']['status']?></td>
                 <td class="current-state-key-cell">Состояние</td>
@@ -45,7 +45,7 @@
 			<!-- count host -->
 			<? if ($revision->numHost): ?>
 				<tr>
-					<td rowspan="2" class="number-cell">8</td>
+					<td rowspan="2" class="number-cell">3</td>
 					<td rowspan="2" class="check-name-cell">Проверка количества директив Host, прописанных в файле</td>
 					<td rowspan="2" class="status-cell" style="<?=$response['count_host']['style']?>"><?=$response['count_host']['status']?></td>
 					<td class="current-state-key-cell">Состояние</td>
@@ -59,7 +59,7 @@
 			
 			<!-- exist sitemap -->
             <tr>
-                <td rowspan="2" class="number-cell">11</td>
+                <td rowspan="2" class="number-cell">4</td>
                 <td rowspan="2" class="check-name-cell">Проверка указания директивы Sitemap</td>
                 <td rowspan="2" class="status-cell" style="<?=$response['exist_sitemap']['style']?>"><?=$response['exist_sitemap']['status']?></td>
                 <td class="current-state-key-cell">Состояние</td>
@@ -72,7 +72,7 @@
 
             <!-- size file -->
             <tr>
-                <td rowspan="2" class="number-cell">10</td>
+                <td rowspan="2" class="number-cell">5</td>
                 <td rowspan="2" class="check-name-cell">Проверка размера файла robots.txt</td>
                 <td rowspan="2" class="status-cell" style="<?=$response['file_size']['style']?>"><?=$response['file_size']['status']?></td>
                 <td class="current-state-key-cell">Состояние</td>
@@ -85,7 +85,7 @@
 
             <!-- code response -->
             <tr>
-                <td rowspan="2" class="number-cell">12</td>
+                <td rowspan="2" class="number-cell">6</td>
                 <td rowspan="2" class="check-name-cell">Проверка кода ответа сервера для файла robots.txt</td>
                 <td rowspan="2" class="status-cell" style="<?=$response['code_response']['style']?>"><?=$response['code_response']['status']?></td>
                 <td class="current-state-key-cell">Состояние</td>
@@ -99,7 +99,7 @@
         <div class="link-box">
 			<ul>
 				<li><a href="/" >Провести анализ файла robots.txt</a></li>
-				<li><a href="save.php?site=<?=$url->host?>">Сохранить данные в файл</a></li>
+				<li><a href="handler.php?url=<?=$url->host?>">Сохранить данные в файл</a></li>
 			</li>
         </div>
     </div>
